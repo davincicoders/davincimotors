@@ -12,6 +12,10 @@ group :test, :darwin, :development do
   gem 'ruby_gntp'
 end
 
+group :test do
+  gem 'capybara'
+end
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
